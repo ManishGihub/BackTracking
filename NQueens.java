@@ -1,3 +1,4 @@
+
 // Q)Write a java program to print all the solutions to place n queens on nXn chessboard such that all the queens are safe
 
 import java.util.ArrayList;
