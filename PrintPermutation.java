@@ -1,4 +1,4 @@
-Q) Print all permutaions of the string
+// Q) Print all permutaions of the string
 
 public class PrintPermutation {
     public static void PrintPermu(String str, String permu, int idx){
