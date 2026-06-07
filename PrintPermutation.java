@@ -17,6 +17,7 @@ public class PrintPermutation {
         PrintPermu(str,"",0);
     }
 }
+
 // abc
 // acb
 // bac
