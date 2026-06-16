@@ -83,6 +83,63 @@ O(N × N!)
 
 ---
 
+### 3. Sudoku Solver
+
+**Problem Statement:**
+
+Solve a partially filled `9 × 9` Sudoku puzzle by filling the empty cells (`.`) while satisfying the following constraints:
+
+1. Each digit `1-9` appears exactly once in every row.
+2. Each digit `1-9` appears exactly once in every column.
+3. Each digit `1-9` appears exactly once in every `3 × 3` sub-grid.
+
+#### Features
+
+* Solves Sudoku puzzles using recursive backtracking.
+* Validates row, column, and sub-grid constraints before placing a number.
+* Efficiently explores possible solutions and backtracks when necessary.
+* Prints the completed Sudoku board.
+
+#### Example
+
+Input:
+
+```text
+5 3 . . 7 . . . .
+6 . . 1 9 5 . . .
+. 9 8 . . . . 6 .
+8 . . . 6 . . . 3
+4 . . 8 . 3 . . 1
+7 . . . 2 . . . 6
+. 6 . . . . 2 8 .
+. . . 4 1 9 . . 5
+. . . . 8 . . 7 9
+```
+
+Output:
+
+```text
+5 3 4 6 7 8 9 1 2
+6 7 2 1 9 5 3 4 8
+1 9 8 3 4 2 5 6 7
+8 5 9 7 6 1 4 2 3
+4 2 6 8 5 3 7 9 1
+7 1 3 9 2 4 8 5 6
+9 6 1 5 3 7 2 8 4
+2 8 7 4 1 9 6 3 5
+3 4 5 2 8 6 1 7 9
+```
+
+#### Time Complexity
+
+```text
+O(9^(n))
+```
+
+where `n` is the number of empty cells.
+
+---
+
 ## 🛠️ Technologies Used
 
 * Java
@@ -98,6 +155,9 @@ O(N × N!)
 * State Space Search
 * Constraint Satisfaction
 * Backtracking Optimization
+* Permutation Generation
+* Sudoku Solving Algorithms
+* Chessboard Placement Problems
 
 ---
 
@@ -136,7 +196,9 @@ This repository helps in understanding:
 * How backtracking works internally.
 * Recursive exploration of solution spaces.
 * Constraint checking techniques.
-* Classic coding interview problems.
+* Problem decomposition using recursion.
+* Solving classic coding interview problems.
+* Optimization through pruning invalid states.
 
 ---
 
